@@ -1,0 +1,122 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:1px solid #ddd; margin-bottom:10px; padding-bottom:10px;">
+
+<h3 class="title-big">{$dt['companyname']}发布的职位</h3>
+
+
+
+
+</div>
+
+<present name="jobList">
+
+<table class="table job-list" width="100%">
+<tr>
+  <th>职位</th>
+  <th>地区</th>
+  <th>发布日期</th>
+  <th>年薪</th>
+  <th>&nbsp;</th>
+</tr>
+<volist name="jobList" id="vo">
+<tr>
+
+<td width="28%">
+<span class="job_title"><a href="{:U('Job/detail',array('id'=>$vo['id']))}">{$vo.Search_posts}</a></span>
+<br />
+<span class="client_name">
+{:get_clientname($vo['cid'],1)}
+</span>
+</td>
+<td width="13%">{$vo.area_cn}</td>
+<td width="24%">{$vo.create_time|date='Y-m-d',###}</td>
+<td width="21%"><span class="pay"><span class="pay">{$vo.payment}<span style="font-family:'宋体'"> -</span> {$vo.payment1}万元</span></span></td>
+<td width="14%">
+<if condition="$vo['sed'] eq 0">
+
+
+<button link="/Save/add" gid="{$vo['id']}" jobname="{$vo['Search_posts']}" class="btn apply_saved" >收藏</button>
+
+
+
+<else/>
+
+<a class="btn  apply_bt btn-success" href="/Job/detail/id/{$vo['id']}" >详情 </a>
+
+</if>
+</td>
+<tr>
+</volist>
+<tr>
+<th colspan="5" style="padding-left:300px;">
+
+{$pageBar}
+
+</th>
+</tr>
+</table>
+
+<else/>
+
+<div class=" nodata alert">
+暂时没有职位！
+
+</div>
+
+</present>
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="get" action="">
+<ul>
+     <li>           <span class="label">地区</span>
+
+<input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade_cn" id="industry_input" class="se-input industry"  value="{$_GET['trade_cn']}" />
+
+
+<input id="industry-val" name="trade" type="hidden"   value="{$_GET['trade']}"/>
+
+</li>
+
+<li>           <div class="label" style=" width:25px; padding:3px 5px">年薪</div>
+
+<input  class="span1" type="text" name="payment" id="payment" style="width:50px; float:left;" value="{$_GET['payment']}">
+
+<input type="text" style="width:20px; float:left; border:0px; " value="至" /><input  type="text" class="span1" style="width:50px; float:left;" name="payment1" id="payment1" value="{$_GET['payment1']}"><span style="width:50px; text-align:center; line-height:30px; float:left">万元</span><div style="clear:both"></div>
+</li>
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" value="{$_GET['keyword']}" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button> <a href="/Job">　清空条件</a></li>
+
+
+<if condition="$ct neq ''">
+<li><input type="button"  id="save_sc" val='{$ct}' class="btn" value="保存条件"/></li>
+
+</if>
+</ul>
+</form>
+</div>
+
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>

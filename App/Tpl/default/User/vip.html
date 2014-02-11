@@ -1,0 +1,96 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px; margin-bottom:30px;">
+
+<h3 class="title-big"><i class="icon-user"></i> 用户介绍</h3>
+</div>
+<h3>普通用户</h3>
+<p style="padding-left:20px;">当你成功注册jobme之后，您的身份就是普通用户，您拥有以下权限：<br>
+1) 可以浏览职位，但是每月最多只能申请3个职位。<br>
+
+2）可以与您所申请职位的猎头进行私信联系。</p>
+
+<h3>高级用户</h3>
+
+<p style="padding-left:20px; padding-bottom:20px;">当你升级为高级用户您拥有以下权限：<br>
+
+1) 可以浏览职位，但是每月最多只能申请10个职位。<br>
+
+2)可以与您所申请职位的猎头进行私信联系。<br>
+<a  <if condition="$level neq 0"> href="javascript:;"  class="btn" <else/> href="/User/up1"    class="btn btn-primary"</if> >       <if condition="$level neq 0"> 马上升级高级用户<else/> 您已经是高级用户  </if>       </a>
+
+
+</p>
+
+
+
+<h3>VIP用户</h3>
+
+<p style="padding-left:20px; padding-bottom:20px;">VIP用户是最高级用户，可以享受以下服务：<br>
+1)可以浏览所有猎头职位。
+  <br>
+  2)可以搜索猎头公司，和猎头顾问进行私信交流。
+  <br>
+  3)如果您允许猎头公司查看您的简历，会有猎头公司主动为您提供更丰富的职位。<br>
+
+
+ <if condition="$level eq 2">
+ 
+ <a  href="javascript:;"  class="btn" >您已经是VIP用户</a>
+ 
+ <else/>
+
+
+<a  href="/User/up2"    class="btn btn-primary">
+
+
+马上升级VIP用户</a>
+
+
+</if>
+
+
+
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="post" action="">
+<ul>
+     <li>           <span class="label">地区</span>
+
+<input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade" id="industry_input" class="se-input industry" /></li>
+
+<li>           <span class="label">年薪</span>
+<select style="width:200px !important">
+<option value="0">请选择</option>
+</select>
+</li>
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>

@@ -1,0 +1,65 @@
+
+<ul class="inform_ul">
+<li><h4>职位申请通知</h4></li>
+
+
+<present name="infoList">
+
+<volist name="infoList" id="vo">
+
+<li <if condition="$vo['rd'] eq 0"> style=" background:rgb(231,241,249)"  </if>>
+
+<a href="#">{$vo['title']}<if condition="$vo['read'] eq 0"><a class="readed" href="javascript:;" link="/Sinform/detail/id/{$vo['id']}/rd/1/ajax/1" style="color:#666; float:right;">标记为已读</a></if></li>
+<div class="cl"></div>
+</volist>
+
+<else/>
+
+ 
+ <div class="alert">
+ 暂时没有通知
+ </div>
+ 
+
+</present>
+
+<if condition ="$key gt 8">
+<li><a href="/Inform/candidate" class="" style=" margin-top:8px;">查看全部</a></li>
+</if>
+
+</ul>
+
+
+<script>
+
+$(".readed").click(function(e) {
+              
+			 
+			  
+	      $this=$(this);
+		  // alert($this.attr('link'));
+		$.ajax({
+			  url:$this.attr('link'),
+			  type:"GET",
+			  data:{},
+			  beforeSend: function(){
+				  
+				  
+				  },
+			   success: function(data){
+				     
+					 if(data.status==1){
+						 
+						 $this.hide();
+						 
+						 }
+				   
+				   },
+			  
+			
+			})
+	   
+	  
+});
+
+</script>

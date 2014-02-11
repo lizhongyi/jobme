@@ -1,0 +1,99 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+
+<h3 class="title-big">猎头公司</h3>
+
+</div>
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px; margin-top:20px;">
+
+<present name="getList">
+<ul class="company_ul">
+<volist name="getList" id="vo">
+<li> <a href="/Company/detail/id/{$vo['uid']}" class="ta"><img id="faceimg" src="{$vo['logo_file']|company_logo}" style="border:1px solid #ddd"></a>
+<div class="c-title"><a href="/Company/detail/id/{$vo['uid']}">{$vo['companyname']}</a><br>
+
+<if condition="$vo['job_totals'] gt 0">
+<a href="/Company/company_job/id/{$vo['uid']}" style="color:#069"> {$vo['job_totals']}个职位</a></if></div></li>
+</volist>
+<div class="cl"></div>
+
+</ul>
+<div class="cl"></div>
+<div class="pages">
+
+
+{$pageBar}
+
+</div>
+
+<else/>
+
+<div class="nodata alert">
+没有找到符合条件的数据！
+</div>
+
+</present>
+<div class="cl"></div>
+</div>
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="get" action="">
+<ul>
+     
+      <li>           <span class="label">地区</span> <input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade_cn" id="industry_input" class="se-input industry"  value="{$_GET['trade_cn']}" />
+
+
+<input id="industry-val" name="trade" type="hidden"   value="{$_GET['trade']}"/>
+
+</li>
+
+
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+<script>
+
+$("#company_ul li a img").each(function(index, element) {
+    
+	
+	
+});
+
+
+</script>

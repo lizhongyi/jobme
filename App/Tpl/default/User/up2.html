@@ -1,0 +1,143 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px; margin-bottom:30px;">
+
+<h3 class="title-big"><i class="icon-user"></i> 升级为VIP用户</h3>
+</div>
+<h3>VIP用户</h3>
+<p style="padding-left:20px;">VIP用户收费标准为500元/年，您可以通过以下方式进行支付，支付成功，即升级为VIP用户。</p>
+<p style="padding-left:20px;">&nbsp;</p>
+
+
+<div class="cl"></div>
+
+
+<h1>支付宝</h1>
+<div class="xian"></div>
+<div class="zhifubao">
+<form name=alipayment action=/alipay/alipayapi.php method=post target="_blank">
+            <div id="body" style="clear:left; display:none">
+                <dl class="content">
+                    <dt>&nbsp;</dt>
+                    <dt>商户订单号：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDout_trade_no" value="{$uid}" />
+                    </dd>
+                    <dt>订单名称：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input value="VIP用户申请" size="30" name="WIDsubject" />
+                        <span>必填
+</span>
+                    </dd>
+                    <dt>付款金额：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30"  value="0.2" name="WIDprice" />
+                        <span>必填
+</span>
+                    </dd>
+                    <dt>订单描述
+：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" value="升级为VIP用户" name="WIDbody" />
+                        <span></span>
+                    </dd>
+                    <dt>商品展示地址：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                      
+                        <span>需以http://开头的完整路径，如：http://www.xxx.com/myorder.html
+</span>
+                    </dd>
+                    <dt>收货人姓名：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDreceive_name" value="{$uid|getTruename}" />
+                        <span>如：张三
+</span>
+                    </dd>
+                    <dt>收货人地址：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDreceive_address" value="北京" />
+                        <span>如：XX省XXX市XXX区XXX路XXX小区XXX栋XXX单元XXX号
+</span>
+                    </dd>
+                    <dt>收货人邮编：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDreceive_zip"  value="{$uid}" />
+                        <span>如：123456
+</span>
+                    </dd>
+                    <dt>收货人电话号码：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDreceive_phone" value="010-01010101" />
+                        <span>如：0571-88158090
+</span>
+                    </dd>
+                    <dt>收货人手机号码：</dt>
+                    <dd>
+                        <span class="null-star">*</span>
+                        <input size="30" name="WIDreceive_mobile"  value="18601334246" />
+                        <span>如：13312341234</span>
+                    </dd>
+					<dt></dt>
+                    <dd>
+                      
+                    </dd>
+                </dl>
+            </div>  
+            
+            <span class="new-btn-login-sp">
+                            <button class="btn new-btn-login large btn-primary " type="submit" style="text-align:center;">确认升级</button>
+                        </span>
+	  </form>
+</div>
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="post" action="">
+<ul>
+     <li>           <span class="label">地区</span>
+
+<input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade" id="industry_input" class="se-input industry" /></li>
+
+<li>           <span class="label">年薪</span>
+<select style="width:200px !important">
+<option value="0">请选择</option>
+</select>
+</li>
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>

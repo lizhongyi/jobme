@@ -1,0 +1,26 @@
+<div class="title-big" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+  <h4>我申请的职位({$aps})</h4></div>
+<div class="search">
+<a href="/User/apply" style="text-decoration:underline">浏览已经申请过的职位。</a>
+</div>
+
+<div class="title-big" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+  <h4>我收藏的职位({$saved})</h4></div>
+<div class="search">
+<a href="/User/saved" style="text-decoration:underline"> 将您感兴趣的职位收藏在这里，以后进行查看。</a>
+
+</div>
+
+<div class="title-big" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+  <h4>保存的搜索条件(0)</h4></div>
+<div class="search">
+ 
+<ul class="sr">
+<volist name="sr" id="vo">
+<li> <a href="/Job?{$vo['url']}" title="{$vo['title']}">{$vo['title']|msubstr=0,18}</a></li>
+</volist>
+<li><a href="/Sr">查看全部>></a></li>
+</ul>
+
+</div>
+

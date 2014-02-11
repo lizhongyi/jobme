@@ -1,0 +1,2000 @@
+[ 2014-01-11T00:05:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T00:13:45+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T00:22:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T00:27:10+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T00:34:18+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T00:42:56+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T00:45:02+08:00 ] 199.91.71.254 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000265s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000081s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T00:45:02+08:00 ] 199.91.71.254 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000780s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000189s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006953s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000232s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000220s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2014-01-11T00:50:56+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T00:52:28+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T00:55:58+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T00:56:55+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:08:39+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T01:20:38+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T01:21:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:24:51+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:38:26+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:39:05+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T01:47:27+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T01:50:28+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:57:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T01:57:17+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:00:20+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T02:13:38+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T02:17:24+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:32:23+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T02:35:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:36:22+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:37:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:38:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:44:47+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T02:45:04+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T02:52:16+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T02:52:38+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T02:54:18+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T03:03:52+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T03:09:16+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T03:15:42+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T03:16:46+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T03:31:52+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T03:32:43+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T03:53:26+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T04:00:54+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T04:06:05+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T04:08:41+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T04:30:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T04:35:01+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T04:37:50+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T04:42:34+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T04:46:52+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T04:46:56+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T04:52:00+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T04:52:05+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:03:45+08:00 ] 183.60.243.240 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000279s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T05:03:45+08:00 ] 183.60.243.240 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000763s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006882s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000246s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2014-01-11T05:05:09+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T05:13:15+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:16:49+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:27:47+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T05:29:09+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:35:28+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T05:46:05+08:00 ] ERR: (ThinkException) 无法加载模块:main
+[ 2014-01-11T05:49:30+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:51:45+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T05:52:39+08:00 ] ERR: (ThinkException) 无法加载模块:main
+[ 2014-01-11T06:06:11+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T06:06:29+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T06:06:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:03+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:07+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:14+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:17+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:32+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:37+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:42+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:46+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:49+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:51+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:07:58+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:02+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:06+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:13+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:28+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:33+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:08:38+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:30+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:33+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:38+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:43+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:47+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T06:09:48+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:51+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:09:57+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:09+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:13+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:19+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:29+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:39+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:52+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:10:59+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:13+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:17+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:21+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:25+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:30+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:11:33+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:13:55+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T06:24:39+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T06:27:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:31:39+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T06:39:01+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T06:43:15+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T06:43:17+08:00 ] ERR: (ThinkException) 无法加载模块:main
+[ 2014-01-11T06:57:54+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T07:05:19+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T07:14:01+08:00 ] 112.25.207.135 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000279s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000407s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T07:14:01+08:00 ] ERR: (ThinkException) 无法加载模块:login
+[ 2014-01-11T07:18:23+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T07:19:44+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T07:29:16+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T07:43:26+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T07:44:32+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T07:46:40+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T07:52:51+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T07:53:41+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T07:58:34+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T08:01:22+08:00 ] 171.89.52.199 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000269s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000404s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T08:01:22+08:00 ] 171.89.52.199 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000817s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000230s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2014-01-11T08:01:25+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T08:01:29+08:00 ] 171.89.52.199 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000276s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000390s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T08:01:29+08:00 ] 171.89.52.199 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006776s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2014-01-11T08:04:27+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T08:22:25+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T08:30:18+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T08:32:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T08:39:07+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T08:44:33+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T08:53:40+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T09:00:23+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T09:00:30+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T09:00:53+08:00 ] ERR: (ThinkException) 无法加载模块:main
+[ 2014-01-11T09:03:08+08:00 ] 157.55.32.108 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000283s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000070s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T09:05:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T09:08:44+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T09:25:54+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T09:26:27+08:00 ] 157.55.32.108 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000264s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000409s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T09:29:03+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T09:30:10+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T09:32:15+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T09:33:07+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T09:37:17+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T09:42:10+08:00 ] ERR: (ThinkException) 无法加载模块:consultant
+[ 2014-01-11T09:51:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T09:52:09+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T10:00:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T10:10:58+08:00 ] ERR: (ThinkException) 无法加载模块:consultant
+[ 2014-01-11T10:13:06+08:00 ] ERR: (ThinkException) 无法加载模块:main
+[ 2014-01-11T10:17:27+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T10:18:16+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T10:25:19+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T10:26:26+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T10:29:35+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T10:37:44+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T10:40:57+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T10:48:29+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T10:49:03+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T10:52:07+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T10:53:14+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T10:55:40+08:00 ] 110.75.145.2 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000281s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T10:55:40+08:00 ] 110.75.145.2 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006850s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2014-01-11T10:59:58+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T11:01:29+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T11:09:20+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T11:17:44+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T11:44:07+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T11:45:46+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T11:56:20+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T11:59:28+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T12:04:19+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T12:04:20+08:00 ] ERR: (ThinkException) 无法加载模块:calls
+[ 2014-01-11T12:05:58+08:00 ] ERR: (ThinkException) 无法加载模块:calls
+[ 2014-01-11T12:06:05+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T12:06:18+08:00 ] ERR: (ThinkException) 无法加载模块:calls
+[ 2014-01-11T12:07:07+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T12:08:13+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T12:08:30+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T12:08:40+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T12:08:43+08:00 ] 207.241.237.220 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000271s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000389s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T12:10:21+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T12:11:39+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T12:13:12+08:00 ] ERR: (ThinkException) 无法加载模块:sites
+[ 2014-01-11T12:14:02+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T12:14:48+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T12:14:48+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T12:24:20+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T12:27:00+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T12:40:58+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T12:45:36+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T12:47:16+08:00 ] ERR: (ThinkException) 无法加载模块:consultant
+[ 2014-01-11T12:54:16+08:00 ] ERR: (ThinkException) 无法加载模块:advisory
+[ 2014-01-11T13:12:26+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T13:14:38+08:00 ] ERR: (ThinkException) 无法加载模块:homepage
+[ 2014-01-11T13:17:41+08:00 ] 183.60.244.20 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000418s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000071s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:17:41+08:00 ] 183.60.244.20 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000768s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006779s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000230s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2014-01-11T13:20:00+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T13:47:52+08:00 ] 218.30.118.101 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000264s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:47:52+08:00 ] 218.30.118.101 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000779s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000245s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2014-01-11T13:47:53+08:00 ] 218.30.118.101 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000260s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:47:53+08:00 ] 218.30.118.101 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007337s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000247s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-01-11T13:47:55+08:00 ] 218.30.118.101 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000277s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:47:55+08:00 ] 218.30.118.101 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006857s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2014-01-11T13:53:42+08:00 ] ERR: (ThinkException) 无法加载模块:job
+[ 2014-01-11T13:53:43+08:00 ] ERR: (ThinkException) 无法加载模块:campus
+[ 2014-01-11T13:53:55+08:00 ] 220.181.51.206 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000281s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:53:55+08:00 ] 220.181.51.200 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007416s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000232s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2014-01-11T13:53:58+08:00 ] 220.181.51.205 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000264s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000389s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T13:53:58+08:00 ] 220.181.51.211 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006808s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000228s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2014-01-11T13:56:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T13:58:24+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T13:59:46+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T14:04:38+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:07:46+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:20:48+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:27:34+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:29:24+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:34:53+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T14:37:12+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T14:41:53+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:00:36+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T15:02:57+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:08:51+08:00 ] 220.181.108.102 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000280s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:08:51+08:00 ] 220.181.108.110 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000753s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006777s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000228s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2014-01-11T15:10:11+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:11:41+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:19:15+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T15:19:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:22:08+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000460s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000347s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000117s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:22:08+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006909s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000245s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2014-01-11T15:22:10+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000260s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:22:11+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006682s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2014-01-11T15:22:13+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000282s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000213s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:22:15+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000228s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000256s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000137s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-01-11T15:23:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:25:10+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:27:09+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:27:48+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:38:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:46:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:52:24+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T15:54:40+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T15:55:03+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000263s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000389s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000191s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006980s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000240s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000241s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000376s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000232s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000248s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000400s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T15:55:49+08:00 ] 218.30.118.80 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000738s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000230s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000218s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2014-01-11T16:05:29+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T16:12:46+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T16:19:14+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T16:28:20+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T16:28:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T16:40:14+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T16:42:57+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T16:44:24+08:00 ] ERR: (ThinkException) 无法加载模块:consultant
+[ 2014-01-11T16:50:41+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T17:11:31+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:16:18+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:18:12+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:23:07+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T17:29:49+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:33:10+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T17:38:02+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:46:50+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T17:56:54+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T17:58:20+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T18:10:17+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T18:13:31+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T18:14:21+08:00 ] ERR: (ThinkException) 无法加载模块:consultant
+[ 2014-01-11T18:14:28+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T18:18:48+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T18:25:33+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T18:37:30+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T18:39:09+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T18:56:24+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T18:58:41+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T18:59:52+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:05:32+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:07:39+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T19:15:25+08:00 ] ERR: (ThinkException) 无法加载模块:msg
+[ 2014-01-11T19:17:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:19:07+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:22:00+08:00 ] ERR: (ThinkException) 无法加载模块:sites
+[ 2014-01-11T19:23:37+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:24:58+08:00 ] 42.120.160.32 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T19:24:58+08:00 ] 42.156.136.32 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006851s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000242s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2014-01-11T19:25:25+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:30:49+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T19:41:48+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T19:42:52+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T19:57:08+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T19:57:09+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:11:13+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T20:12:03+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:18:55+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:22:18+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:26:00+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:30:23+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:32:06+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:37:50+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:38:16+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:42:25+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T20:51:18+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:52:53+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T20:58:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T20:58:18+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T21:08:52+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T21:13:51+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T21:28:50+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T21:35:26+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T21:36:15+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T21:40:42+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T21:44:53+08:00 ] 220.181.125.108 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000274s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T21:44:53+08:00 ] 220.181.125.108 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobmedia.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000180s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006673s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000245s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-01-11T21:51:27+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T21:56:37+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T22:02:50+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T22:02:50+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T22:02:50+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:02:53+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:02:53+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:04:45+08:00 ] ERR: (ThinkException) 无法加载模块:e
+[ 2014-01-11T22:05:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:19+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:40+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:40+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:40+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:44+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:08:44+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:09:52+08:00 ] ERR: (ThinkException) 无法加载模块:detail
+[ 2014-01-11T22:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:10:04+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:10:13+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:14:53+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:18:57+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:19:19+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T22:37:54+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:39:47+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:50:21+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T22:50:21+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T22:50:43+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:50:43+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:12+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T22:53:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:35+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:53:38+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T22:56:02+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T22:58:29+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:03:05+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:07:02+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:09:40+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:10:21+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:13:35+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:19:55+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:24:05+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T23:25:55+08:00 ] ERR: (ThinkException) 无法加载模块:columns
+[ 2014-01-11T23:26:21+08:00 ] ERR: (ThinkException) 无法加载模块:offer
+[ 2014-01-11T23:32:57+08:00 ] ERR: (ThinkException) 无法加载模块:signup
+[ 2014-01-11T23:34:48+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T23:48:24+08:00 ] 65.55.52.115 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000265s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobmedia.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000411s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000063s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2014-01-11T23:49:46+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T23:50:30+08:00 ] ERR: (ThinkException) 无法加载模块:search
+[ 2014-01-11T23:51:09+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2014-01-11T23:59:40+08:00 ] ERR: (ThinkException) 无法加载模块:consultant

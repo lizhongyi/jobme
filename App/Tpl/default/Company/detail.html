@@ -1,0 +1,108 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt" style="box-shadow:none1">
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+
+<h3 class="title-big">{$dt['companyname']}</h3>
+
+</div>
+<div class="" style="border-bottom:0px solid #ddd; padding-bottom:10px; margin-top:20px;">
+
+<div class="job_detail" style="margin-top:-20px;">
+
+
+<ul>
+<li><div class="com_logo"><img src="{$dt['logo_file']|company_logo}" /></div></li>
+<div class="cl"></div>
+<li><span class="label">企业性质：</span>  {$select['nature'][$dt['nature']]}</li>
+<li><span class="label">企业规模：</span> {$select['scale'][$dt['scale']]}</li>
+<li><span class="label">所属行业：</span>{$dt['trade_cn']}</li>
+<li>
+<span class="label">所在地区：</span>{$dt['area_cn']}</li>
+
+<li>
+<span class="label">注册资金：</span>{$dt['registered']}</li>
+
+<li>
+<span class="label">　联系人：</span>{$dt['linkman']}</li>
+
+<li>
+<span class="label">联系电话：</span>{$dt['tel']}</li>
+
+<li>
+<span class="label">通信地址：</span>{$dt['addr']}</li>
+
+
+<li><span class="label"><strong>公司简介</strong></span></li>
+<div class="cl"></div>
+<li style="width:620px;">
+{$dt['about']}</li>
+<div class="cl"></div>
+</ul>
+
+</div>
+<div class="cl"></div>
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px;">
+<h3 class="title-big">公司旗下猎头</h3>
+</div>
+<div class="hunter_list">
+  
+  <ul>
+  <volist name="hlist" id="vo">
+  <li style="border:0px; height:180px; margin-right:12px"><a href="/Hunter/detail/id/{$vo['uid']}"><img src="{$vo['uid']|get_ht_face}" width="140" height="120"  style="border:1px solid #ddd;" /></a>
+  <div class="uname"><a href="/Hunter/detail/id/{$vo['uid']}">{$vo['username']}</a></div>
+  <div >{$vo['jcont']}个职位</div>
+  </li>
+  </volist>
+  </ul>
+
+</div>
+</div>
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="get" action="/Company">
+<ul>
+     
+      <li>           <span class="label">地区</span> <input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade_cn" id="industry_input" class="se-input industry"  value="{$_GET['trade_cn']}" />
+
+
+<input id="industry-val" name="trade" type="hidden"   value="{$_GET['trade']}"/>
+
+</li>
+
+
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Rest/Behavior
+END
+CheckRestRouteBehavior.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Rest/Behavior/CheckRestRouteBehavior.class.php
+END
+CheckUrlExtBehavior.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Rest/Behavior/CheckUrlExtBehavior.class.php
+END

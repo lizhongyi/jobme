@@ -1,0 +1,1773 @@
+[ 2013-12-22T00:30:19+08:00 ] 220.181.108.122 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000285s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000082s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T00:31:42+08:00 ] 123.125.71.49 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000408s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T00:38:54+08:00 ] 110.75.145.2 /Login/reg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000798s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000178s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007482s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000246s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000137s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2013-12-22T01:14:25+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T01:30:02+08:00 ] 220.181.108.82 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000268s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000396s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T01:31:27+08:00 ] 123.125.71.33 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000285s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T03:48:43+08:00 ] 123.125.71.31 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000283s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000071s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T03:52:07+08:00 ] 220.181.108.102 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000265s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000394s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000086s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000478s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T04:00:44+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T04:01:47+08:00 ] 157.56.93.187 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000416s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T04:42:01+08:00 ] 220.181.108.78 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000285s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T04:45:49+08:00 ] 123.125.71.38 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000268s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T05:18:44+08:00 ] 110.16.197.138 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006777s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000230s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000234s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2013-12-22T05:18:45+08:00 ] ERR: (ThinkException) 无法加载模块:login
+[ 2013-12-22T05:18:48+08:00 ] 110.16.197.138 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.002980s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T05:18:48+08:00 ] 110.16.197.138 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006764s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000232s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2013-12-22T05:23:07+08:00 ] 183.60.215.28 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000183s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2013-12-22T05:32:38+08:00 ] 123.125.71.41 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000268s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000081s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000070s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T05:32:52+08:00 ] 220.181.108.92 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000280s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000409s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T06:33:58+08:00 ] 123.125.71.20 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000287s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000083s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T06:39:18+08:00 ] 220.181.108.87 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T07:02:58+08:00 ] 207.182.143.146 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000338s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000376s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000120s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000071s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T07:03:15+08:00 ] 207.182.143.146 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000854s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000187s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000251s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2013-12-22T09:51:38+08:00 ] 220.181.108.91 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000392s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T09:51:44+08:00 ] 123.125.71.40 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000269s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000394s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T10:07:40+08:00 ] ERR: (ThinkException) 无法加载模块:phpmyadmin
+[ 2013-12-22T10:55:00+08:00 ] 220.181.108.121 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000266s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000416s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T10:57:31+08:00 ] 123.125.71.28 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000271s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000081s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T11:31:00+08:00 ] 183.60.243.242 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000281s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T11:31:00+08:00 ] 183.60.243.242 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000230s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000138s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2013-12-22T13:12:02+08:00 ] 123.125.71.47 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000281s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000071s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T13:13:12+08:00 ] 220.181.108.120 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000268s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T13:19:58+08:00 ] ERR: (ThinkException) 无法加载模块:phpmyadmin
+[ 2013-12-22T13:36:27+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T13:37:06+08:00 ] 157.55.32.54 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000265s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000407s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T13:57:29+08:00 ] 123.125.71.40 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000417s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T13:58:32+08:00 ] 220.181.108.96 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T14:47:19+08:00 ] ERR: (ThinkException) 无法加载模块:phpmyadmin
+[ 2013-12-22T15:15:39+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T15:15:39+08:00 ] 65.55.213.68 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000269s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T15:15:41+08:00 ] 65.55.213.68 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006892s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000236s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2013-12-22T16:33:24+08:00 ] 123.125.71.55 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000286s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T16:34:35+08:00 ] 220.181.108.94 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000277s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000071s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000182s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T17:28:57+08:00 ] 123.125.71.35 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000282s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000408s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T17:29:10+08:00 ] 220.181.108.114 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T19:57:15+08:00 ] 123.125.71.48 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000270s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000080s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000403s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T20:01:11+08:00 ] 220.181.108.114 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T21:22:21+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T21:26:12+08:00 ] 65.55.213.68 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000268s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000407s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T21:26:14+08:00 ] 65.55.213.68 /Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined variable: public_arr /home/wwwroot/www.jobme.cn/App/Lib/Action/LoginAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `eking_user` [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006765s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000231s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000216s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2013-12-22T21:56:15+08:00 ] 220.181.108.90 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000068s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000067s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T21:57:48+08:00 ] 123.125.71.36 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000302s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000397s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T22:07:03+08:00 ] ERR: (ThinkException) 无法加载模块:phpmyadmin
+[ 2013-12-22T22:19:01+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T23:11:06+08:00 ] 5.10.83.82 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000408s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T23:13:13+08:00 ] 183.60.213.28 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000281s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000389s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000065s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T23:51:31+08:00 ] ERR: (ThinkException) 无法加载模块:robots
+[ 2013-12-22T23:55:29+08:00 ] 123.125.71.27 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000283s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000408s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000064s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-12-22T23:57:24+08:00 ] 220.181.108.83 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000267s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/www.jobme.cn/includes/array.php 第 218 行.
+NOTIC: [8] Undefined index:  THINK_username /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_pid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_level /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_post /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_type /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_department /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_realname /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission_tile /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_permission /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `eking_persona` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc  [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id asc' at line 1
+ [ SQL语句 ] : SELECT * FROM `eking_persona` WHERE ( comid= ) ORDER BY id asc 
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 66 行.
+NOTIC: [8] Undefined variable: nt /home/wwwroot/www.jobme.cn/App/Lib/Action/GlAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1   [ RunTime:0.000069s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and status=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid= and status=0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eking_sinform` [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1   [ RunTime:0.000066s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `read`=0 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eking_sinform` WHERE ( to_uid= and `read`=0 ) LIMIT 1  
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/www.jobme.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+

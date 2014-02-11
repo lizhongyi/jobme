@@ -1,0 +1,102 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 id="modal-recoverLabel">编辑职业技能</h3>
+                </div>
+                <div class="modal-body">
+
+                                    
+									
+               
+             <table class="" id="edu_inputs">
+                <tr>
+                  <td width="600" height="224" valign="top"><strong>
+                    <textarea name="skills" cols="28" rows="16" id="skills" style=" width:640px; margin-left:0px;"><?php echo ($dt['skills']); ?></textarea>
+                  </strong></td>
+                </tr>
+                
+                </table>
+
+              
+              
+              
+              
+              
+                 </div>
+                
+<div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+  <input type="submit"  id="add_edu_bt" class="btn btn-primary" value="提交" />
+</div>
+                
+                
+                
+                
+                
+<script>
+				
+			    	
+			
+       // $("#time").datepicker(defaultOptions);
+      
+  
+               $('[data-form=datepicker]').datepicker();
+			  
+			  
+			  
+			  
+			  
+			  $("#add_edu_bt").click(function(e) {
+				  
+				  if($("#skills").val()==""){
+					      
+						  
+						   yan_fn($(".ms"),'请填写完整',$(this));
+					    
+					  }
+				      
+                          
+						 $this=$(this);
+						
+							
+							$.ajax({
+								     url:'/Resume/do_edit',
+									 type:"POST",
+									 data:{
+										
+										 skills:$("#skills").val(),
+										
+									 },
+									 beforeSend: function(){
+										    
+											$this.val("提交中...").attr('disbaled',false);
+										   
+										 },success:function(data){
+											 
+											     if(data.status==1){
+													   
+													    $this.val(data);
+														$(".close").click();
+														 window.location.reload();
+													 
+													 }else{
+														 
+														  $this.val(data);
+														 
+														 }
+												
+												
+											 }
+				                                       					 
+				 				
+								    });
+						
+						 
+                    });
+			  
+			  
+			  
+			  
+			  
+			  
+				</script>

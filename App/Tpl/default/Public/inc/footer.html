@@ -1,0 +1,22 @@
+ <div class="modal" id="msgbox"></div>
+ <div id="footer" style="width:920px;">
+ <div class="zuo" style="width:320px;">
+<a href="/">职美网</a>
+ </div>
+ <div class="rt" style="width:420px; text-align:right">
+ <a href="/About">关于我们</a> · <a href="/About/contact">联系我们</a> · <a href="/About/feedback"> 建议反馈</a> · <a href="/help.html"> 帮助中心</a>　京ICP备11016916号-9
+
+ </div>
+ <div class="cl"></div>
+ </div>
+ 
+ 
+ </body>
+ <script>
+ 
+ $(".sms-add").click(function(e) {
+     geta($("#msgbox"),'/Usermsg/add/ajax/1/uid/'+$(this).attr('uid'),loadGif);
+	  
+});
+ </script>
+ </html>

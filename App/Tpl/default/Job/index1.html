@@ -1,0 +1,354 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8" />
+<title><if condition="$Title neq ''">{$Title}|</if> {$module|get_module}-{$action|get_action}|职美网-中高级人才招聘平台</title>
+<meta property="qc:admins" content="1411267112627255636" />
+<meta http-equiv="description" content="职美网由北京中安智美科技有限公司开发并运营。中安智美科技有限公司是北京市东城区重点扶持的新兴产业试点单位，由招商银行提供贷款扶持，招商证券提供财务顾问服务。公司业务以互联网和物联网应用开发为主，致力于建设大型行业应用系统，目前已开发的产品有职美网、矿山安全应急指挥系统、油田监控与报警系统，并根据客户需要定制开发了多种类型的CRM管理系统，同时中安智美还对外承接大型网站设计与制作业务。"/>
+<meta http-equiv="keywords" content="北京猎头服务，北京人才招聘，北京企业招聘"/>
+<css href="../Public/css/bp.css" />
+<css href="../Public/css/bp-r.css" />
+<css href="../Public/css/css.css" />
+<css href="../Public/css/docs.css" />
+<css href="../Public/css/font-awesome.css" />
+<css href="../Public/css/style.css" />
+<css href="../Public/css/diy.css" />
+<css href="../Public/css/jquery-ui.css" />
+
+<css href="../Public/css/bangzhu.css" />
+
+        <link href="favicon.ico" rel="shortcut icon" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../Public/assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../Public/assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../Public/assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../Public/assets/ico/apple-touch-icon-57-precomposed.png">
+  
+
+     <script src="../Public/js/jquery-1.7.2.js"></script>
+ 
+     <script src="../Public/js/bootstrap.js"></script>
+     <script src="../Public/js/jquery-ui-1.10.2.custom.min.js"></script>
+     <script src="../Public/js/artTemplate.js"></script>
+     <script src="../Public/js/array.js"></script>
+       <script src="../Public/js/functions.js"></script>
+        <script src="../Public/js/custom.js"></script>
+        <script src="../Public/js/industry.js"></script>
+         <script src="../Public/js/cate_job.js"></script>
+        <script src="../Public/js/bootstrap-popover.js"></script>
+          <script src="../Public/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" ></script>
+        
+     
+       
+        
+</head>
+
+<body>
+<div class="navbar" style="position:fixed; width:100%; border-radius:0; z-index:999999">
+      <div class="navbar-inner" style=" width:100%; height:72px; margin-left:-32px; border-radius:0">
+       <div class="top_c" style="width:920px; margin:0 auto">
+<div class="logo" style="margin-left:10px;"><a href="/"><img src="/Public/img/logo.png"/></a></div>
+
+
+<div class="top-nav"><a href="/Job">职位信息</a>　　　<a href="/User">用户中心</a></div>
+
+
+<ul class="nav pull-right">
+                              <div style=" margin-top:30px;">
+                            <strong>  <a href="/Login" style="color:#F1F1F1">个人登录</a>　　<a href="http://oa.jobme.cn" style="color:#F1F1F1">猎头登陆</a> </strong> 
+                              </div>
+									
+								</ul>
+                                
+                                <div class="cl"></div>
+
+</div>
+      </div>
+    </div>
+<div style="height:100px;"></div>
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:1px solid #ddd; margin-bottom:10px; padding-bottom:10px;">
+
+<h3 class="title-big">猎头职位</h3>
+
+
+
+
+
+
+</div>
+
+
+
+<present name="getList">
+
+
+<table class="table job-list" width="100%">
+<tr>
+  <th>职位</th>
+  <th>地区</th>
+  <th>发布日期</th>
+  <th>年薪</th>
+  <th>&nbsp;</th>
+</tr>
+<volist name="getList" id="vo">
+<tr>
+
+<td width="31%">
+<span class="job_title"><a href="{:U('Job/detail',array('id'=>$vo['id']))}" target="_blank">{$vo.Search_posts}</a></span>
+<br />
+<span class="client_name">
+{:get_clientname($vo['cid'],1)}
+</span>
+</td>
+<td width="13%">{$vo.area_cn}</td>
+<td width="20%">{$vo.create_time|date='Y-m-d',###}</td>
+<td width="25%"><span class="pay">{$vo.payment}<span style="font-family:'宋体'"> -</span> {$vo.payment1}万元</span></td>
+<td width="11%">
+
+
+
+
+
+
+
+
+
+
+
+<if condition="$vo['sed'] eq 0">
+
+
+<a  href="/Login" link="/Save/add" gid="{$vo['id']}" jobname="{$vo['Search_posts']}" class="btn apply_saved" >收藏</a>
+
+
+
+<else/>
+
+<a class="btn  apply_bt btn-success" href="/Job/detail/id/{$vo['id']}" >详情 </a>
+
+</if>
+
+
+
+
+
+
+
+</td>
+<tr>
+</volist>
+<tr>
+<th colspan="5">
+
+{$pageBar}
+
+</th>
+</tr>
+</table>
+
+<else/>
+
+<div class="alert nodata">
+暂时没有数据！
+</div>
+
+</present>
+
+
+
+
+
+
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+
+
+
+
+
+
+<div class="search">
+<form name="se" id="se" method="get" action="">
+<ul>
+     <li>           <span class="label">地区</span>
+
+<input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade_cn" id="industry_input" class="se-input industry"  value="{$_GET['trade_cn']}" />
+
+
+<input id="industry-val" name="trade" type="hidden"   value="{$_GET['trade']}"/>
+
+</li>
+
+<li>           <div class="label" style=" width:25px; padding:3px 5px">年薪</div>
+
+<input  class="span1" type="text" name="payment" id="payment" style="width:50px; float:left;" value="{$_GET['payment']}">
+
+<input type="text" style="width:20px; float:left; border:0px; " value="至" /><input  type="text" class="span1" style="width:50px; float:left;" name="payment1" id="payment1" value="{$_GET['payment1']}"><span style="width:50px; text-align:center; line-height:30px; float:left">万元</span><div style="clear:both"></div>
+</li>
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" value="{$_GET['keyword']}" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button> <a href="/Job">　清空条件</a></li>
+
+
+<if condition="$ct neq ''">
+<li><input type="button"  id="save_sc" val='{$ct}' class="btn" value="保存条件"/></li>
+
+</if>
+</ul>
+</form>
+</div>
+
+
+
+
+
+
+{:W('rightInc')}
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+
+
+
+
+<script>
+$("#save_sc").click(function(e) {
+    
+	//alert("sss");
+	$this=$(this);
+	
+	$.ajax({
+		   
+		   url:'/?s=Sr&a=add&'+$this.attr('val').substr(5,$this.attr('val').length),
+		   type:"GET",
+		   data:{},
+		   beforeSend: function(){
+			       
+				   $this.val('...');
+			   
+			   },success: function(data){
+				      
+					  if(data.status==1){
+						    
+							$this.val(data.info);
+						  
+						  }else{
+							  
+							  $this.val(data.info);
+							  
+							  }
+				   
+				   }
+		    
+		})
+	
+	
+	  
+});
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
+jQuery.fn.highlight = function(pat) {
+ function innerHighlight(node, pat) {
+  var skip = 0;
+  if (node.nodeType == 3) {
+   var pos = node.data.toUpperCase().indexOf(pat);
+   if (pos >= 0) {
+    var spannode = document.createElement('span');
+    spannode.className = 'highlight';
+    var middlebit = node.splitText(pos);
+    var endbit = middlebit.splitText(pat.length);
+    var middleclone = middlebit.cloneNode(true);
+    spannode.appendChild(middleclone);
+    middlebit.parentNode.replaceChild(spannode, middlebit);
+    skip = 1;
+   }
+  }
+  else if (node.nodeType == 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+   for (var i = 0; i < node.childNodes.length; ++i) {
+    i += innerHighlight(node.childNodes[i], pat);
+   }
+  }
+  return skip;
+ }
+ return this.each(function() {
+  innerHighlight(this, pat.toUpperCase());
+ });
+};
+jQuery.fn.removeHighlight = function() {
+ function newNormalize(node) {
+    for (var i = 0, children = node.childNodes, nodeCount = children.length; i < nodeCount; i++) {
+        var child = children[i];
+        if (child.nodeType == 1) {
+            newNormalize(child);
+            continue;
+        }
+        if (child.nodeType != 3) { continue; }
+        var next = child.nextSibling;
+        if (next == null || next.nodeType != 3) { continue; }
+        var combined_text = child.nodeValue + next.nodeValue;
+        new_node = node.ownerDocument.createTextNode(combined_text);
+        node.insertBefore(new_node, child);
+        node.removeChild(child);
+        node.removeChild(next);
+        i--;
+        nodeCount--;
+    }
+ }
+return this.find("span.highlight").each(function() {
+    var thisParent = this.parentNode;
+    thisParent.replaceChild(this.firstChild, this);
+    newNormalize(thisParent);
+ }).end();
+};
+</script>
+<script type="text/javascript">
+$(function() {
+        
+		if($("#keyword").val()!=''){
+        // pull in the new value
+        var searchTerm = $("#keyword").val();
+        // remove any old highlighted terms
+        $('body').removeHighlight();
+        // disable highlighting if empty
+        if ( searchTerm ) {
+            // highlight the new term
+            $('body').highlight( searchTerm );
+        }
+		}
+});
+</script>

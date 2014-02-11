@@ -1,0 +1,323 @@
+[ 2013-06-04T18:21:36+08:00 ] 114.245.178.6 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000321s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined index:  THINK_uname /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_uid /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_consultant /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_face /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_group /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+NOTIC: [8] Undefined index:  THINK_role_id /home/wwwroot/app.jobmedia.cn/Framework/Extend/Library/ORG/Util/Cookie.class.php 第 32 行.
+
+[ 2013-06-04T18:21:36+08:00 ] 114.245.178.6 /User/login.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000216s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005982s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000242s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000257s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000158s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2013-06-04T18:21:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-06-04T18:21:42+08:00 ] 114.245.178.6 /User/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2013-06-04T18:21:42+08:00 ] 114.245.178.6 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000318s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000467s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index:  title /home/wwwroot/app.jobmedia.cn/App/Lib/Action/IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  cid /home/wwwroot/app.jobmedia.cn/App/Lib/Action/IndexAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_works` [ RunTime:0.000770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_works` WHERE ( `display` = 1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT * FROM `eking_works` WHERE ( `display` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000226s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.020431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.020501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 5 行.
+NOTIC: [8] Undefined variable: ul /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 36 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 38 行.
+SQL: SHOW COLUMNS FROM `eking_client` [ RunTime:0.000555s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1125 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1124 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1123 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1119 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1119 ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.049093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049155s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000280s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2013-06-04T18:21:42+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:21:50+08:00 ] 114.245.178.6 /index.php/Job/detail/id/1042
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `eking_job` [ RunTime:0.000332s ]
+ERR: Table 'erpking.eking_job' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_job`
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000461s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `eking_works` [ RunTime:0.000771s ]
+SQL: SELECT * FROM `eking_works` WHERE ( id=1042 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `eking_client` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `eking_client` WHERE ( id=1125 ) LIMIT 1   [ RunTime:0.000143s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.023843s ]
+INFO: [ view_template ] --END-- [ RunTime:0.023915s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 5 行.
+NOTIC: [8] Undefined variable: ul /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 36 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 38 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 195 行.
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=Arraycid ) LIMIT 1   [ RunTime:0.000128s ]
+ERR: Unknown column 'Arraycid' in 'where clause'
+ [ SQL语句 ] : SELECT `company_name` FROM `eking_client` WHERE ( id=Arraycid ) LIMIT 1  
+NOTIC: [8] Undefined index:  realname /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 250 行.
+NOTIC: [8] Undefined index:  trade_cn /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 257 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022499s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000259s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000181s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2013-06-04T18:21:50+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:22:33+08:00 ] 114.245.178.6 /Usermsg/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000478s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: ps /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: parm /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 184 行.
+SQL: SELECT `faid`,`id`,`toid` FROM `eking_usermsg` WHERE ( toid =1000483  and delid <> 1000483          or faid=1000483 and  delid <> 1000483 ) ORDER BY id desc  [ RunTime:0.000258s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/app.jobmedia.cn/App/Lib/Action/UsermsgAction.class.php 第 40 行.
+NOTIC: [8] Undefined variable: silist /home/wwwroot/app.jobmedia.cn/App/Lib/Action/UsermsgAction.class.php 第 105 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005481s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/e4c0787f83496825623a6630c188a44f.php 第 5 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/e4c0787f83496825623a6630c188a44f.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000378s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000259s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2013-06-04T18:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:22:33+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:23:15+08:00 ] 114.245.178.6 /Usermsg/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000462s ]
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: ps /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 184 行.
+NOTIC: [8] Undefined variable: parm /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 184 行.
+SQL: SELECT `faid`,`id`,`toid` FROM `eking_usermsg` WHERE ( toid =1000483  and delid <> 1000483          or faid=1000483 and  delid <> 1000483 ) ORDER BY id desc  [ RunTime:0.000301s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/app.jobmedia.cn/App/Lib/Action/UsermsgAction.class.php 第 40 行.
+NOTIC: [8] Undefined variable: silist /home/wwwroot/app.jobmedia.cn/App/Lib/Action/UsermsgAction.class.php 第 105 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000230s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/e4c0787f83496825623a6630c188a44f.php 第 5 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/e4c0787f83496825623a6630c188a44f.php 第 38 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000366s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2013-06-04T18:23:15+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:23:15+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:28:31+08:00 ] ERR: (ThinkException) 无法加载模块:Talent
+[ 2013-06-04T18:28:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-06-04T18:28:34+08:00 ] 114.245.178.6 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+NOTIC: [8] Undefined index:  id /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_index` [ RunTime:0.000335s ]
+ERR: Table 'erpking.eking_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_index`
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000502s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index:  title /home/wwwroot/app.jobmedia.cn/App/Lib/Action/IndexAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  cid /home/wwwroot/app.jobmedia.cn/App/Lib/Action/IndexAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `eking_works` [ RunTime:0.000741s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_works` WHERE ( `display` = 1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `eking_works` WHERE ( `display` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000224s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 5 行.
+NOTIC: [8] Undefined variable: ul /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 36 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/f00f177eec6217e16c9f63c0c3fc223d.php 第 38 行.
+SQL: SHOW COLUMNS FROM `eking_client` [ RunTime:0.000544s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1125 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1124 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1123 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1119 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=1119 ) LIMIT 1   [ RunTime:0.000116s ]
+INFO: Run ParseTemplate Behavior [ RunTime:0.016515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000279s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000254s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2013-06-04T18:28:34+08:00 ] ERR: (ThinkException) 无法加载模块:App
+[ 2013-06-04T18:28:47+08:00 ] 114.245.178.6 /index.php/Job/detail/id/1042
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index:  ajax /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `eking_job` [ RunTime:0.000336s ]
+ERR: Table 'erpking.eking_job' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `eking_job`
+NOTIC: [8] Undefined index:  json /home/wwwroot/app.jobmedia.cn/includes/array.php 第 174 行.
+NOTIC: [8] Undefined variable: profile /home/wwwroot/app.jobmedia.cn/App/Lib/Action/GlAction.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `eking_inform` [ RunTime:0.000612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='candidate' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_inform` WHERE ( 1=1 and find_in_set(1000483,touid) and not find_in_set(1000483,`read`) and module='collection'  ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `eking_usermsg` [ RunTime:0.000435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eking_usermsg` WHERE ( toid=1000483 and status=0 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `eking_works` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `eking_works` WHERE ( id=1042 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `eking_client` [ RunTime:0.001513s ]
+SQL: SELECT * FROM `eking_client` WHERE ( id=1125 ) LIMIT 1   [ RunTime:0.000148s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: Title /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 5 行.
+NOTIC: [8] Undefined variable: ul /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 36 行.
+NOTIC: [8] Undefined variable: cl /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 38 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 195 行.
+SQL: SELECT `company_name` FROM `eking_client` WHERE ( id=Arraycid ) LIMIT 1   [ RunTime:0.000098s ]
+ERR: Unknown column 'Arraycid' in 'where clause'
+ [ SQL语句 ] : SELECT `company_name` FROM `eking_client` WHERE ( id=Arraycid ) LIMIT 1  
+NOTIC: [8] Undefined index:  realname /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 250 行.
+NOTIC: [8] Undefined index:  trade_cn /home/wwwroot/app.jobmedia.cn/Temp/Cache/cd59bee961f93352b8b087b7223f0145.php 第 257 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014440s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000275s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000285s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000157s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-06-04T18:28:47+08:00 ] ERR: (ThinkException) 无法加载模块:App

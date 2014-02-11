@@ -1,0 +1,89 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt" >
+
+
+<div class="tab"> <a  class="tab-bar" href="/User/index" style="padding:1px 10px;">用户中心</a> <a  class="tab-bar hover" href="/User/index" style="padding:1px 10px;">应聘的职位</a>  <a  class="tab-bar" href="/User/saved" style="padding:1px 10px;">收藏的职位</a><a  class="tab-bar" href="/User/profile_edit" style="padding:1px 10px;">基本资料</a> <a href="/Resume" class="tab-bar" style="padding:1px 10px;">完整简历</a> <div class="cl"></div> </div>
+              
+              
+              
+            <div class="cl"></div> 
+
+
+
+
+<present name="ap">
+
+
+
+
+  <table width="753" cellpadding="" class="table">
+  <tr>
+    <th width="68">序号</th>
+    <th width="163">职位名称</th>
+    <th width="103">进展状态</th>
+    <th width="174">收藏时间</th>
+    <th width="168">发布猎头</th>
+    <th width="61">操作</th>
+  </tr>
+  
+  <volist name="ap" id="vo">
+  <tr>
+    <td>{$key+1}</td>
+    <td><a href="/Job/detail/id/{$vo['gid']}">{$vo['jobname']}</a></td>
+    <td>{$vo['st']}</td>
+    <td>{$vo['create_time']|date='Y-m-d',###}</td>
+    <td>{$vo['g_uid']|getTruename}</td>
+    <td><a href="#msgbox" data-toggle="modal" class=" sms-add" uid="{$vo['g_uid']}"><i class="icon-envelope"></i></a></td>
+  </tr>
+  </volist>
+  <tr>
+    <td></td>
+    <td colspan="5">{$pagebar}</td>
+    </tr>
+  
+  
+  </table>
+
+<else/>
+ 
+ <div class="nodata alert">
+ 
+ 暂时没有数据！
+ 
+ </div>
+
+</present>
+
+
+<div class="" id="tongzhi">
+</div>
+
+
+
+              </div>
+              
+              
+              
+              
+              
+              <div class="right">
+             {:W('rightInc')}
+ 
+              
+              <div class="cl"></div>
+              <div class="cl"></div>
+</div>
+</div>
+
+
+</div>
+<include file="Public:inc/footer"/>
+<script>
+
+ // geta($("#tongzhi"),'/Sinform/index/ajax/1',loadGif);
+
+</script>

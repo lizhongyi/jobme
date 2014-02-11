@@ -1,0 +1,98 @@
+<include file="Public:inc/header"/>
+<style>
+ul.sr li a{ line-height:28px;}
+</style>
+
+<div class="wp">
+
+<div class="lt" style="border-bottom:0px;">
+<div class="title-big" style="border-bottom:1px solid #ddd; margin-top:-13px;">建议反馈</div>
+
+
+<p>希望您能在此留下宝贵意见和建议，我们会做的更好。</p>
+
+<form action="/About/do_feed" id="" name="" method="post">
+<select id="cate" name="cate">
+<option value="1">使用帮助</option>
+<option value="2">功能建议</option>
+<option value="3">问题反馈</option>
+
+</select><br>
+
+<textarea name="content" rows="5" id="content" style="margin-left:0px;" >
+
+
+</textarea>
+<br>
+<input name="bt" id="bt" style="float:right; margin-right:100px;" type="submit" class="btn btn-primary" value="提交"/>
+</form>
+
+
+
+
+<div class="cl"></div>
+
+
+</div>
+<div class="right">
+<div class="title-big" style="border-bottom:1px solid #ddd; margin-top:-13px;">关于我们</div>
+ 
+ 
+ <ul class="sr" style="margin-top:20px; line-height:30px;">
+ <li><a href="/About">公司简介</a><br>
+</li>
+ <li><a href="/About/contact">联系我们</a><br>
+</li>
+ <li><a href="/About/feedback">意见反馈</a><br>
+</li>
+ </ul>
+
+
+</div>
+</div><div class="cl"></div>
+
+<include file="Public:js-tpl/hangye.inc2"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc3"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+</div>
+
+
+
+
+<script>
+$("#save_sc").click(function(e) {
+    
+	//alert("sss");
+	$this=$(this);
+	
+	$.ajax({
+		   
+		   url:'/Sr/add?'+$this.attr('val'),
+		   type:"GET",
+		   data:{},
+		   beforeSend: function(){
+			       
+				   $this.val('保存中...');
+			   
+			   },success: function(data){
+				      
+					  if(data){
+						    
+							$this.val(data.info);
+						  
+						  }
+				   
+				   }
+		    
+		})
+	
+	
+	  
+});
+
+</script>

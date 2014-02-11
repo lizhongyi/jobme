@@ -1,0 +1,227 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:0px solid #ddd; padding-bottom:10px;">
+
+
+
+<div class="ft">
+
+<span class="title-big">{$vo['Search_posts']} <span class="huise" style="font-size:14px;">（{:get_clientname($vo['cid'])}）</span>　</span>
+
+</div>
+
+
+<div class="rt" style="padding-top:10px; text-align:right; color:#999">发布日期：{$vo['create_time']|date='Y-m-d',###}</div><div class="cl"></div>
+</div>
+<div class="job_detail" style="position:relative;">
+
+<if condition="($vo['end_time'] eq 0) OR ($vo['end_time'] gt time())"> 
+
+
+<div class="yuoce" style="position:absolute; right:0px;">
+
+<if condition="$vo['aped'] eq 0">
+
+
+
+
+<button name="bt"  link='/Job/apply/jobid/{$vo["id"]}/jobname/{$vo["Search_posts"]}/g_uid/{$vo["uid"]}' data-toggle="modal" href="#apply_box" class="btn btn-primary apply_bt" style="float:right;" gid="{$vo.id}">立即申请</button>
+
+<else/>
+
+
+<button name="bt" class="btn" disabled style="float:right;" gid="{$vo.id}">已经申请</button>
+
+
+</if>
+
+
+
+<div style="height:10px; clear:both"></div>
+
+<if condition="$vo['saved'] eq 0">
+
+<a name="bt"  link="/Save/add" gid="{$vo['id']}" data-toggle="modal" href="javascript:;" class="btn  btn-primary save_bt" style="float:right;" gid="{$vo.id}">收藏职位</a>
+
+
+
+<else/>
+
+
+<a  link="/Saved/delete/id/{$vo['id']}/ajax/1" href="javascript:;" class="btn unsave btn-primary " style="float:right; clear:both" gid="{$vo.id}">取消收藏</a>
+
+
+</if>
+
+
+</div>
+
+
+</if>
+<ul>
+<li><span class="label">薪资待遇：</span>{$vo['payment']}~{$vo['payment1']}万元</li>
+<li> <span class="label">工作地区：</span>{$vo['area_cn']}</li>
+<li> <span class="label">性别要求：</span> {$vo['sex']}</li>
+<li> <span class="label">所属行业：</span>{$client['trade_cn']} </li>
+
+<li><span class="label">招聘人数： </span> {$vo['hr_num']}</li>
+
+
+<li><span class="label">开始日期： </span> {$vo['start_time']|date='Y-m-d',###}</li>
+
+<li><span class="label">结束日期： </span> <if condition="$vo['end_time'] neq 0"> 
+<if condition="$vo['end_time'] lt time()"><span style="color:#C00">该职位已过期</span><else/>{$vo['end_time']|date='Y-m-d',###}</if><else/>长期</if></li>
+<div class="cl"></div>
+
+</ul>
+<div class="btl-small">
+职位描述
+</div>
+<p>{$vo['job_descriptions']|nl2br}</p>
+<div class="btl-small">任职要求</div>
+<p>{$vo['job_requirements']|nl2br}</p>
+<div class="btl-small">企业信息</div>
+<ul>
+<li><span class="label">企业名称：</span> {$client['company_name']}</li>
+<li><span class="label">企业性质：</span>  {$select['nature'][$client['nature']]}</li>
+<li><span class="label">企业规模：</span> {$select['scale'][$client['scale']]}</li>
+<li><span class="label">所属行业：</span>{$client['trade_cn']}</li>
+<li>
+<span class="label">企业简介：</span></li>
+<li>　　</li>
+<li style="width:520px;">
+{$client['content']}</li>
+<div class="cl"></div>
+</ul>
+</div>
+<div class="btl-small" style="padding:15px; padding-bottom:20px;">　</div>
+<span class="title-big">相关职位</span>
+</div>
+
+
+<div class="right">
+<div class="title-big">发布人</div>
+<!--hunterinfo-->
+<div class="hunter-info">
+<div class="h-face"><a href="/Hunter/detail/id/{$ht['uid']}"><img src="{$vo['uid']|get_ht_face}" width="100" height="100" style="border:1px solid #ddd" /></a></div>
+<div class="h-name" style="line-height:24px;">
+<a href="/Hunter/detail/id/{$ht['uid']}">{$vo['uid']|getTruename}</a><br />
+
+<span style="font-size:14px;">(高级顾问)</span><br>
+<if condition="$vo['aped'] eq 1">
+
+<a href="#msgbox" style="margin-top:16px;" data-toggle="modal" class="sms-add btn btn btn-info" uid="{$vo['uid']}">咨询</a>
+
+</if>
+</div>
+<div class="cl"></div>
+
+<p style="line-height:32px;">
+<span class="label">所在公司：</span>　
+<a href="/Hunter/detail/id/{$ht['uid']}" title="{$com['companyname']}">{$com['companyname']|msubstr=0,8}</a><br />
+<span class="label">擅长行业：</span>　{$ht['shanchang']}
+<div class="cl"></div>
+
+</p>
+<div class="xian"></div>
+{:W('rightInc')}
+</div>
+<div class="cl"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:inc/footer"/>
+
+
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+<script>
+
+ $(".unsave").click(function(e) {
+    
+	   var $this=$(this);
+	 
+	var del=function(){
+		     
+			$this.text("收藏职位")
+			
+			window.location="";
+		   
+		} 
+	 
+	ajaxfun($this.attr('link'),'',$this,del)
+	 
+	 
+	 
+});
+
+
+
+
+
+
+ $(".save_bt").click(function(e) {
+    
+	    $this=$(this);
+		
+	  $.ajax({
+		  
+		     url:'/Saved/add',
+			 type:'POST',
+			 data:{gid:$this.attr("gid"),jobname:$this.attr('jobname')},
+			 beforeSend: function(){
+				  $this.text("...");
+				 
+				 },success: function(data){
+					   
+					   if(data.status==1){
+						   
+						   
+						    $this.text("取消收藏");
+							//$this.attr("link","/Saved/delete/id/"+$this.attr("gid")+"/ajax/1").removeClass('save_bt').addClass('unsave');
+							//$this="";
+							
+							window.location="";
+						   }else{
+							    $this.text(data.info);
+							   
+							   }
+					  
+					 }
+		  
+		  });
+	 
+	 
+	 
+});
+
+$("xx").click(function(e) {
+       
+	   $("yy").height(300).siblings().height(800);
+	   
+});
+
+</script>

@@ -1,0 +1,311 @@
+<include file="Public:inc/header"/>
+<div class="wp">
+
+<div class="lt">
+            <div class="well bg-FFF ">
+              <div class="btl" style=" background:#f7f7f7;">
+                <a href="{:U('Usermsg/index')}">私信</a> 
+              </div>
+             
+          
+                
+                
+                
+                <div class="cbox  form-table" style=" margin:15px; margin-top:0px;">
+                
+                   
+                   <div class="u_right_box">
+<div class="like_box">
+<div class="hziliao">
+
+<div>
+ <div class="liuyan">
+ <div id="rr"></div>
+</div>
+<div class="cl"></div>
+<div id="liu_f" style="margin-top:16px;">
+
+<div class="huifu_box" style="display:block; padding:4px;display:none; margin-top:8px; clear:both;">
+<input  type="text" name="suser" id="suser"  data='userlist' autocomplete="off" class="suser"  placeholder="搜索用户" toid='' />
+
+<div class="ajax_user">
+<div class="uli">
+
+
+</div></div><div id="hfname"></div><span id="msg"></span>
+
+<div class="cl"></div>
+<form action="" method="post" name="huifu_frm">
+
+<textarea name="content" id="content" class="txtbox"  toid='' style="width:520px !important; margin-left:0px; height:80px"></textarea><span class="tishi"></span><div class="tjdiv"><button type="button" class="sms_bt btn btn-primary" sendUrl="{:U('Usermsg/sendmsg')}" >发送</button></div><div class="cl"></div></form>
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+<div class="cl"></div>
+</div>
+
+<div class="list_box" >
+<ul>
+<volist name="silist" id="vo">
+
+
+<li>
+
+
+
+
+<div class="book_item">
+
+
+
+
+<div  class="sm_face">
+
+
+
+<if condition="$vo['faid'] eq $uid">
+
+
+<img src="{$vo['tid']|get_user_face}" width="56" height="56" />
+
+<else/>
+
+
+<img src="{$vo['tid']|get_ht_face}" width="56" height="56" />
+
+</if>
+</div>
+
+
+
+
+
+<div style="padding:0px; margin-top:-7px; margin-left:80px;">{$vo['sixin'][0]['st']}<a href="{:U('User/home',array('uid'=>$vo['tid']))}" >{$vo['uname']}</a> : {$vo['sixin'][0]['content']}
+
+
+<span style="display:block;">
+
+<span style="float:right;">
+<a href="{:U('Usermsg/smsbox',array('toid'=>$vo['tid']))}">{$vo['tixing']}共{$vo['nums']}对话</a> | <a href="javascript:;" hfid="{$vo['tid']}" hfname="{$vo['tid']|getTruename}" class="hfs">回复</a> | <a href="javascript:;" uname="{$vo['tid']|getTruename}" uid="{$vo['tid']}" class="deldh" >删除</a>{$vo['sz']}
+</span>
+
+<span style="float:left;">{$vo['sixin'][0]['create_time']|date='Y-m-d',###}</span>
+<div class="cl"></div>
+</span>
+
+
+
+</div>
+</li>
+
+</volist>
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+<!--留言区域-->
+
+</div>
+</div>
+
+
+</div>
+<div class="cl"></div>
+<div class="tanchuang" style="position:absolute; width:300px; display:none; margin-left:-150px; left:50%; top:100px; border:2px solid #ddd; background:#FFF;">
+<div class="delbox">
+<h3>你确定要删与除所有回话么？</h3>
+<button type="button">取消</button><button type="button">确定</button>
+</div>
+</div>
+
+                  
+                 
+            </div>
+            
+         
+
+<div class="right">
+
+<div class="title-big" style="border-bottom:1px solid #ddd; padding-bottom:10px;">筛选条件</div>
+<ul style="padding-top:18px !important;">
+<volist name="silist" id="vo">
+
+
+<li>
+
+
+<div  class="sm_face">
+
+
+
+
+
+<img src="{$vo['tid']|get_ht_face}" width="36" height="36"
+ style="width:36px; height:36px;" />
+
+{$vo['uname']}
+<div class="cl"></div>
+</div>
+</li>
+
+</volist>
+
+<div class="cl"></div>
+</ul>
+
+
+
+
+</div>
+
+		<div class="cl"></div>
+    </div>
+  <include file="Public:inc/footer" />
+
+
+
+<script src="../Public/js/plus_tan.js"></script>
+
+<script>
+  
+ //私信函数			
+
+
+
+    $(document).keydown(function(e) {
+
+        if (e.ctrlKey && e.which == 13) {
+            $('.sms_bt').click();
+
+        }
+
+    });
+
+
+    $('.sms_bt').click(function(e) {
+
+
+        if ($('#content').val() == '') {
+            $("#msg").html('内容不能为空').show();
+            return false;
+
+        }
+		  $('#msg').html(""); 
+
+        var content = guolv($('#content').val());
+        var suser = $('#suser').attr("toid");
+		var url=$(this).attr("sendUrl");
+		
+        $.ajax({
+            type: "POST",
+            url:url,
+            data: {
+                toid: suser,
+                content: content
+            },
+            beforeSend: function() {
+                msg("发送中.....");
+
+            },
+            success: function(data) {
+
+                if (data.status== 1) {
+                    //刷新当前页面
+
+                 window.location.reload();
+
+                }else{
+					
+					//alert("chucuole");
+					
+					}
+
+
+
+
+            }
+
+
+
+        });
+
+        return false;
+
+
+    });
+
+    $('button.sixin').click(function(e) {
+
+        $(".huifu_box").toggle();
+
+
+    });
+
+    $('.hfs').click(function(e) {
+        $(".huifu_box").show();
+        $("#content").focus();
+
+        $("#suser").attr("toid",$(this).attr('hfid')).hide();
+        $("#hfname").html("<span class='text'>发给:  <a href='#'>" + $(this).attr("hfname") + "</a>  </span><div class='cl'></div>").show();
+
+    });
+
+
+
+    /*选择私信用户*/
+    $('.x_user').live("click", 
+    function() {
+
+        $("#suser").attr("toid",$(this).attr("toid")).hide();
+        $("#uli").html("");
+
+        $("#hfname").html("<span class='text'>发给:  <a href='#'>" + $(this).attr("uname") + "</a> <div class='cl'></div>").show();
+
+
+
+    });
+    /*修改发送用户*/
+
+$("span.modfy").live("click", 
+    function() {
+
+        $(this).parent().html("").hide();
+        $("#suser").val("").show();
+
+    });
+
+$(".deldh").click(function(e){
+	
+	      
+		   $this=$(this);
+		     if(window.confirm("你确定要删除全部对话么？")){
+				   
+				  $.ajax({
+					    
+						 url:'/Usermsg/deldh/ajax/1/id'+$this.attr('uid'),
+						 
+					  
+					  
+					  });
+				 
+				 }else{
+					    
+						return false;
+					   
+					 }
+	
+	
+	})
+
+
+</script>

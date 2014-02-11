@@ -1,0 +1,271 @@
+<include file="Public:inc/header"/>
+
+   
+   <div class="wp">
+            <div class="lt">
+              <div class="like_box">
+                
+                
+                <span id="msg"></span>
+                
+  <div class="liu_f" style="margin-top:0px;">
+
+<div class="huifu_box" style="display:block; padding:18px;">
+
+<div class="ftitle" style="padding:10px 0">发送给 {:getTruename($toid)} </div>
+<div class="cl"></div>
+<form action="" method="post" name="huifu_frm">
+
+<input type="hidden" name="toid" id="toid" value="{$toid}" />
+<textarea name="content" id="content" class="txtbox" toid='{$urr["id"]}' style="margin:0px; width:600px;"></textarea><div class="tjdiv"><span class="zishu"></span>
+
+
+<div class="cl"></div>
+
+
+<button type="submit" sendUrl="{:U('Usermsg/sendmsg')}" class="sms_bt btn btn-primary"  style="margin:10px;" >发送</button></div><div class="cl"></div></form>
+</div>
+
+</div>
+</div>
+<div class="cl"></div>
+
+
+<div class="list_box" >
+<ul>
+
+
+
+
+
+<present name="dhlist">
+<volist name="dhlist" id="vo">
+
+
+
+ <div class="book_item" id="sms_{$vo['id']}" style=" border:0px !important; margin-bottom:20px;<if condition="$vo['ut'] eq '我:'">  background:#FEFEFE; <else/>  </if>">
+ 
+ 
+ 
+ 
+<li>
+
+<if condition="$vo['ut'] eq '我:'">
+<div  class="sm_face"><img src="{$vo['faid']|get_user_face}" width="40" height="40" /></div>
+
+
+<else/>
+<div  class="sm_face"><img src="{$vo['faid']|get_ht_face}" width="40" height="40" /></div>
+
+</if>
+
+<div class="sms_c">
+
+{$vo['ut']}　{$vo['content']}
+
+<span style="display:block; height:30px">
+
+<span style="float:right;" align="right"><if condition="$vo['ut'] neq '我:'"><a href="javascript:;" class="fh" toid="{$vo['uid']}">回复</a>|</if><a href="javascript:;" class="delsms" delid="{$vo['id']}">删除</a>{$vo['sz']}</span>
+
+
+
+<span style="float:left; margin-top:9px;">{$vo['create_time']|date='Y-m-d',###}</span>
+
+
+
+</span>
+
+<div class="cl"></div>
+</div>
+
+
+
+</li>
+</div>
+
+
+</volist>
+
+
+ <else/>
+ 
+ <li>您还没有私信！</li>
+
+</present>
+
+
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+</div>
+
+<div class="right">
+
+
+
+</div>
+</div>
+<div class="tanchuang" style="position:absolute; width:300px; display:none; margin-left:-150px; left:50%; top:100px; border:2px solid #ddd; background:#FFF;">
+<div class="delbox">
+<h3>你确定要删与除所有回话么？</h3>
+<button type="button">取消</button><button type="button">确定</button>
+</div>
+</div>
+
+                  
+                 
+        
+  
+
+   
+</div>
+
+		
+		
+	
+     <include file="Public:inc/footer" />
+  
+   </body>
+</html>
+
+
+
+
+
+
+<script src="../Public/js/plus_tan.js"></script>
+
+<script>
+  
+ //私信函数			
+
+
+
+    $(document).keydown(function(e) {
+
+        if (e.ctrlKey && e.which == 13) {
+            $('.sms_bt').click();
+
+        }
+
+    });
+
+
+    $('.sms_bt').click(function(e) {
+
+
+        if ($('#content').val() == '') {
+            $("#msg").html('内容不能为空').show();
+            return false;
+
+        }
+		  $('#msg').html(""); 
+
+        var content = guolv($('#content').val());
+        var suser = $('#toid').val();
+		var url=$(this).attr("sendUrl");
+		
+        $.ajax({
+            type: "POST",
+            url:url,
+            data: {
+                toid: suser,
+                content: content
+            },
+            beforeSend: function() {
+                msg("发送中.....");
+
+            },
+            success: function(data) {
+
+                if (data.status == 1) {
+                    //刷新当前页面
+				  window.location.reload();
+
+                }else{
+					
+					alert(data);
+					
+					}
+
+
+
+
+            }
+
+
+
+        });
+
+        return false;
+
+
+    });
+
+    $('button.sixin').click(function(e) {
+
+        $(".huifu_box").toggle();
+
+
+    });
+
+    $('.hfs').click(function(e) {
+        $(".huifu_box").show();
+        $("#content").focus();
+
+        $("#suser").attr("toid",$(this).attr('hfid')).hide();
+        $("#hfname").html("<span class='text'>发给:  <a href='#'>" + $(this).attr("hfname") + "</a>  </span><span class='modfy'>修改</span><div class='cl'></div>").show();
+
+    });
+
+
+
+    /*选择私信用户*/
+    $('.x_user').live("click", 
+    function() {
+
+        $("#suser").attr("toid",$(this).attr("toid")).hide();
+        $("#uli").html("");
+
+        $("#hfname").html("<span class='text'>发给:  <a href='#'>" + $(this).attr("uname") + "</a>  </span><span class='modfy'>修改</span><div class='cl'></div>").show();
+
+
+
+    });
+    /*修改发送用户*/
+
+$("span.modfy").live("click", 
+    function() {
+
+        $(this).parent().html("").hide();
+        $("#suser").val("").show();
+
+    });
+
+
+$(".delsms").click(function(e) {
+         
+		 $this=$(this);
+	   // alert("/Usermsg/delete/ajax/1/id/"+$(this).attr('delid'));
+		$.ajax({
+			
+			 url:'/Usermsg/delete/ajax/1/id/'+$(this).attr('delid'),
+			 type:"GET",
+			 beforeSend: function(){},
+			 success: function(data){
+				       
+					     if(data.status==1){
+						      
+							  $("#sms_"+ $this.attr('delid')).remove();
+						   
+						   }
+					 
+				    
+				 }
+			
+			});
+	     
+});
+
+</script>

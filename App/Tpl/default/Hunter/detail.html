@@ -1,0 +1,155 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+<div class="" style="border-bottom:0px solid #ddd; padding-bottom:0px;">
+
+<h3 class="title-big">猎头资料</h3>
+
+</div>
+
+
+<div class="user_box" style="margin-top:20px;">
+
+<div style="float:left">
+<img src="{$dt['uid']|get_ht_face}" width="130" height="140" style=" border:1px solid #ddd" />
+</div>
+
+
+<div class="infobox">
+<div class="job_detail" style="margin-top:-18px;">
+
+
+<ul class="hunter_ul" style="line-height:28px;">
+<li><span class="label">猎头姓名：</span>{$dt['uid']|getTruename}</li>
+<li> <span class="label">所在地区：</span>{$dt['area_cn']}</li>
+<li> <span class="label">所在公司：</span><a title="{$dt['company']}" href="/Company/detail/id/{$dt['comid']}">{$dt['company']|msubstr=0,16}</a></li>
+
+<li> <span class="label">发布职位：</span>{$dt['zhiwei_num']} 个猎头职位</li>
+<li> <span class="label">电子邮箱：</span>{$dt['email']} </li>
+<li> <span class="label">移动电话：</span>{$dt['phone']} </li>
+
+
+<li><button href="#msgbox" data-toggle="modal" class="sms-add  btn btn-info" uid="{$dt['uid']}">咨询猎头</button></li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="cl"></div>
+<div class="divider-content"><span></span></div>
+<div class="" style="border-bottom:1px solid #ddd; padding-bottom:10px; margin-top:20px;">
+
+<h3 class="title-big">TA发布的职位</h3>
+
+
+<present name="getList">
+
+<table class="table job-list" width="100%">
+<tr>
+  <th>职位</th>
+  <th>地区</th>
+  <th>发布日期</th>
+  <th>年薪</th>
+  <th>&nbsp;</th>
+</tr>
+<volist name="getList" id="vo">
+<tr>
+
+<td width="28%">
+<span class="job_title"><a href="{:U('Job/detail',array('id'=>$vo['id']))}">{$vo.Search_posts}</a></span>
+<br />
+<span class="client_name">
+{:get_clientname($vo['cid'],1)}
+</span>
+</td>
+<td width="21%">{$vo.area_cn}</td>
+<td width="14%">{$vo.create_time|date='Y-m-d',###}</td>
+<td width="24%"><span class="pay">{$vo.payment}<span style="font-family:'宋体'"> -</span> {$vo.payment1}万元</span></td>
+<td width="13%">
+<if condition="$vo['sed'] eq 0">
+
+
+<a  href="javascript:;" link="/Save/add" gid="{$vo['id']}" jobname="{$vo['Search_posts']}" class="btn apply_saved" >收藏</a>
+
+
+
+<else/>
+
+<a class="btn  apply_bt btn-success" href="/Job/detail/id/{$vo['id']}" >详情 </a>
+
+</if>
+
+</td>
+<tr>
+</volist>
+<tr>
+<th colspan="5" style="padding-left:300px;">
+
+{$pageBar}
+
+</th>
+</tr>
+</table>
+
+
+<else/>
+
+<div class="nodata alert">
+
+暂时没有数据
+
+</div>
+
+</present>
+
+
+
+
+</div>
+
+</div>
+<div class="right">
+<div class="title-big">筛选条件</div>
+<div class="search">
+<form name="se" id="se" method="post" action="">
+<ul>
+     <li>           <span class="label">地区</span>
+
+<input type="text" name="area_cn"  id="area_cn" class="se-input area"  value="{$_GET['area_cn']}" />
+<input type="hidden" name="area" id="area-val" value="{$_GET['area']}"/>
+</li>
+
+<li>           <span class="label">行业</span>
+
+<input type="text" name="trade" id="industry_input" class="se-input industry" /></li>
+
+<li>           <span class="label">年薪</span>
+<select style="width:200px !important">
+<option value="0">请选择</option>
+</select>
+</li>
+<li>           <span class="label">关键字</span>
+
+<input type="text" name="keyword" id="keyword" class="se-input" /></li>
+<li><button class="btn  btn-primary">搜索 <i class=" icon-search"></i></button></li>
+</ul>
+</form>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<include file="Public:js-tpl/hangye.inc"/>
+        <!--调用地区模板--->
+       <include file="Public:js-tpl/area.inc"/>
+<include file="Public:inc/footer"/>
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>
+
+
+<div class="modal" id="apply_box" style="width:400px; margin-left:-200px;">
+
+</div>

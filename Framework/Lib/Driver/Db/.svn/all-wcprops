@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oa/!svn/ver/1/Framework/Lib/Driver/Db
+END
+DbMysql.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/oa/!svn/ver/1/Framework/Lib/Driver/Db/DbMysql.class.php
+END
+DbMysqli.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/oa/!svn/ver/1/Framework/Lib/Driver/Db/DbMysqli.class.php
+END

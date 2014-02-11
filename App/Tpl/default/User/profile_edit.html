@@ -1,0 +1,441 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt" style="width:840px; box-shadow:none">
+<div class="tab"><a  class="tab-bar " href="/User/index" style="padding:1px 10px;">用户中心</a> <a  class="tab-bar " href="/User/apply" style="padding:1px 10px;">应聘的职位</a>  <a  class="tab-bar" href="/User/saved" style="padding:1px 10px;">收藏的职位</a> <a  class="tab-bar hover" href="/User/profile_edit" style="padding:1px 10px;">基本资料</a> <a class="tab-bar" style="padding:1px 10px;" href="/Resume">完整简历</a> </div>
+
+<div style="padding:30px; position:relative">
+
+<div class="face-box1">
+
+<script src="/Public/css/jquery-clip.min.js"></script>
+
+
+
+<div class="upface" style=" padding-left:0px; position:absolute; width:500px; right:0px;">
+
+<form  target="hidden_frame" action="{:U('User/upFace')}" id="upt" method="post" encType="multipart/form-data">
+<div class="sface" style="margin-left:290px;">
+ <img id="faceimg" src="{$pr['uid']|get_user_face}" width="180" height="180" />
+ 
+ 
+<span id="sbt">修改头像</span>
+
+
+<a href="#upPass"  link="/User/upPass"></a>
+<!--[if !IE]><!-->
+<input  type="file" name="attach_file" id="upl" style="width:180px; height:180px; position:absolute; -moz-opacity:0;
+      -khtml-opacity: 0;  
+      top:0;opacity: 0; border:1px solid #ddd; z-index:99999" />
+     <!--<![endif]-->
+     
+     <!--[if gt IE 5.5]>
+<input  type="file" name="attach_file" id="upl"  style=" position:absolute;  width:110px; height:80px; margin-left:-119px;filter:alpha(opacity=0)"  />
+  <![endif]-->
+</div> 
+
+</form>
+<div class="upform">
+
+  
+
+   <iframe name='hidden_frame' id="hidden_frame"  style='display:none'></iframe>   
+</div>
+</div>
+
+
+
+
+
+<ul id="cbox" style="display:none; width:450px; position:absolute; right:0">
+	<li>
+        <div id="msg" style="display:block !important"></div>
+    	<div id="container"></div>
+    </li>
+    <li>
+    	<div id="img"><img id="suo" src=""/></div>
+        <img id="newImg" style="display:none; margin:10px auto; border:1px solid #CCC; " src="{$dt['uid']|get_user_face}">
+    </li>
+</ul>
+
+<script type="text/javascript">
+	var o = $("#container").clip({
+		imgC : $("#img"),
+		maxHeight:180,
+		maxWidth:180,
+		
+	});
+	
+	
+	
+	function callback(msg,img,w,h)   
+{   if(img != "no" && msg ==2){
+	        
+		       
+		    $("#container").css("background","url("+img+")");
+			$("#container").css({'width':w,'height':h});
+			 $("#img").css("background","url("+img+")");
+			$("#container").css("background-repeat","no-repeat");
+;            $("#cbox").show();
+			 $(".sface").hide();
+			 document.getElementById("faceimg").src=img;
+             document.getElementById("msg").innerHTML = "<font color=red>裁切头像,双击选框上传</font>"; 
+	 
+	
+	
+	
+}
+
+else if(msg==1)
+{  
+	document.getElementById("faceimg").src=img;
+	$("#msg").html("<font color=red>上传成功</font>").fadeOut(300); 
+	window.location.reload();
+}
+ else if(msg==3){
+	 document.getElementById("msg").innerHTML = "<font color=red>请选择文件</font>"; 
+	 }    
+	 else{
+		 document.getElementById("msg").innerHTML = "<font color=red>异常</font>"; 
+		 }
+}   
+ 
+ 
+
+$("#upl").change(function(e) {
+    
+	
+	$("#upt").submit();
+	
+});
+	
+	
+	
+	
+	function cutFace(){
+	  
+	  var data1 = o.getValue();
+	  
+	 //alert(data1.x1);
+	
+	  
+	$.ajax({
+		type:"POST",
+		url:"{:U('User/cutFace')}",
+		data:data1,
+		beforeSend: function(){
+			   $("#msg").html("上传中....");
+			}
+		,success: function(data){
+			
+			   if(data != 0){
+				   
+			    $("#msg").html("上传成功").fadeOut(300,function(){
+					  
+					  $("#faceimg").attr('src',data);
+					   $("#cbox").hide();
+					    $(".sface").show();
+					});
+				
+				
+			   }else
+			   {
+				   $("#msg").html(data); 
+				   
+				}
+			  
+			  
+		 	}
+			
+		
+		});
+	  
+	
+	}
+	
+	
+	$(".block").live("dblclick",function(){
+		
+			              cutFace();
+						  
+		 
+		})
+		
+	$("#fsb").click(function(e) {
+           cutFace();
+    });
+	
+	
+	
+	 function preview(img, selection) {
+
+var scaleX = 100 / (selection.width || 1);
+
+var scaleY = 100 / (selection.height || 1);
+
+var wh= $("#img").width();
+var ht=$("#img").height();
+$('#ferret + div > img').css({
+
+"width": Math.round(scaleX * wh) + 'px',
+
+"height": Math.round(scaleY * ht) + 'px',"margin-left": '-' + Math.round(scaleX * selection.x1) + 'px',
+
+"marginTop": '-' + Math.round(scaleY * selection.y1) + 'px'
+
+});
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+
+
+
+
+
+
+
+
+</div>
+   <form method="post"  action="{:U('User/do_profile')}">
+                                                    
+                                                    <div class="control-group"></div>
+                                                    
+                               <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">用户名</label>
+                                                            <div class="controls">
+                                                            <input id="uname" name="uname"  type="text" class="" value="{$uname}" disabled />
+                                 </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">真实姓名</label>
+                                                            <div class="controls">
+                                                            <input id="uname" name="realname"  type="text" class="grd-white" value="{$pr['realname']}"  />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                      <div class="control-group">
+                                                            <label class="control-label">性别</label>
+                                                            <div class="controls">
+                                                                <label class="radio">
+                                                                    <input type="radio" data-form="uniform" name="sex" id="optionsRadios1" value="1" <if condition="$pr['sex'] eq 1"> checked </if> />
+                                                                   男
+                                                                </label>
+                                                              
+                                                              <label class="radio" style="padding-top:6px;">
+                                                                    <input type="radio" data-form="uniform"  name="sex" id="optionsRadios2"  <if condition="$pr['sex'] eq 2"> checked </if>  value="2" />
+                                                                   女
+                                                                </label>
+                                                            </div>
+                               </div>
+                                                        
+                                                        
+                                                        
+                                                         <div class="control-group">
+                                                            <label class="control-label">婚姻状况</label>
+                                                            <div class="controls">
+                                                                <label class="radio">
+                                                                    <input type="radio" data-form="uniform" name="marriage" id="optionsRadios1" value="1"  <if condition="$pr['marriage'] eq 1"> checked </if> />
+                                                                   未婚
+                                                                </label>
+                                                              
+                                                                <label class="radio" style="padding-top:6px;">
+                                                                    <input type="radio" data-form="uniform" name="marriage" id="optionsRadios2"  <if condition="$pr['marriage'] eq 2"> checked </if> value="2" />
+                                                                   已婚
+                                                                </label>
+                                                                
+                                                               
+                                                              
+                                                                <label class="radio" style="padding-top:6px;">
+                                                                    <input type="radio" data-form="uniform" name="marriage" id="optionsRadios3"  <if condition="$pr['marriage'] eq 3"> checked </if> value="3" />
+                                                                   保密
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                   
+                                                    <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">出生日期</label>
+                                                            <div class="controls">
+                                                                <input id="age" name="age" class="grd-white" data-form="datepicker"  size="16" type="text" value="" />
+                                                            </div>
+                               </div>
+                                                        
+                                                        
+                                                        
+                                                            <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">Email</label>
+                                                            <div class="controls">
+                                                            <input id="email" name="email"  type="text" class="grd-white" value="{$pr['email']}" />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                             
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">手机</label>
+                                                            <div class="controls">
+                                                            <input id="uname" name="phone"  type="text" class="grd-white" value="{$pr['phone']}"  />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                             
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">电话</label>
+                                                            <div class="controls">
+                                                            <input id="uname" name="tel"  type="text" class="grd-white" value="{$pr['tel']}"  />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                                  
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">通讯地址</label>
+                                                            <div class="controls">
+                                                            <input id="addr" name="addr"  type="text" class="grd-white" value="{$pr['addr']}"  />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                         <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">最近工作单位</label>
+                                                            <div class="controls">
+                                                            <input id="last_company" name="last_company"  type="text" class="grd-white span3" value="{$pr['last_company']}"  />
+                                                            </div>
+                                                        </div>
+                                                        
+                                                   
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputAuto">最近职位</label>
+                                                            <div class="controls">
+                                                            
+                                                            
+                   <div style="position:relative">                                         <input class="span2  cate_job" id="cate_job_input"  size="16" type="text" name="post_cn" value="{$pr['post_cn']}" autocomplete="off"><input type="hidden" name="post" value="{$pr['post']}" id="cate_job-val">
+
+<include file="Public:js-tpl/cate_job1.inc"/>
+
+</div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                      
+                               
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="inputSelect">学历</label>
+                                                            <div class="controls">
+                                                                <select id="inputSelect" name="education" data-form="select2" style="width:200px" data-placeholder="Your Favorite Type of Bear">
+                                                                                                                     <option <if condition="$pr['education'] eq 2"> selected="" </if> value="1" />本科
+                                                                    <option value="2" <if condition="$pr['education'] eq 2"> selected="" </if> />硕士
+                                                                    <option <if condition="$pr['education'] eq 3"> selected="" </if> value="3" />博士
+                                                                    <option <if condition="$pr['education'] eq 4"> selected="" </if>  value="4" />博士后                                                                 
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            <div class="control-group">
+                                                            <label class="control-label" for="inputSelect">学历证书</label>
+                                                            <div class="controls">
+
+<input type="file" name="edu_zs" id="edu_zs"/>
+                                                            </div>
+                                                        </div>    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                                                        
+                                                          <div class="control-group">
+                                                            <label class="control-label" for="inputSelectGroup">所在地区</label>
+                                                            <div class="controls" style="position:relative">
+                                                             <input class="area span4 grd-white" size="16" type="text" value="{$pr['area_cn']}" name="area_cn"><input type="hidden" name="area" value="{$Think.get.area}" id="area-val"/>
+             <include file="Public:js-tpl/area.inc4"/>                                                </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                      
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    
+                                                      
+                                                        <div class="control-group">
+                                                          <label class="control-label" for="inputEditorSimple">个人介绍</label>
+                                                            <div class="controls">
+                                                                <textarea id="inputEditorSimple" class="span4"  rows="8" name="about" data-form="wysihtml5" placeholder="Enter text ...">{$pr['about']}</textarea>
+                                                                <input type="hidden" value="{$pr['step']}" name="step"/>
+                                                            </div>
+                               </div>
+                               <div class="form-actions">
+                                                            <button type="submit" class="btn btn-primary">保存资料</button>
+                                                            <button type="button" class="btn">取消</button>
+                                                        </div>
+                                                    </form>
+                                                    
+                                                    </div>
+
+
+</div>
+<div class="cl"></div>
+</div>
+
+<div class="cl"></div>
+</div>
+<include file="Public:inc/footer"/>
+    
+   
+   <script>
+   
+   
+      $('[data-form=datepicker]').datepicker();
+   
+   </script>

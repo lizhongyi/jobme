@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli
+END
+Db.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/Db.class.php
+END
+Action.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/Action.class.php
+END
+App.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/App.class.php
+END
+Model.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/Model.class.php
+END
+Log.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/Log.class.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/Framework/Extend/Mode/Cli/functions.php
+END

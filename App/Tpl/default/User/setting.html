@@ -1,0 +1,173 @@
+<include file="Public:inc/header"/>
+
+
+<div class="wp">
+
+<div class="lt">
+
+
+<div class="tab">  <a  class="tab-bar hover" href="/User/index" style="padding:1px 10px;">用户中心</a> <a  class="tab-bar " href="/User/apply" style="padding:1px 10px;">应聘的职位</a>  <a  class="tab-bar" href="/User/saved" style="padding:1px 10px;">收藏的职位</a><a  class="tab-bar" href="/User/profile_edit" style="padding:1px 10px;">基本资料</a> <a href="/Resume" class="tab-bar" style="padding:1px 10px;">完整简历</a> <div class="cl"></div> </div>
+              
+              
+              
+              
+             
+              
+              
+              
+              
+              
+              
+            <div class="cl"></div>
+   
+   <div class="face_box" style="padding: 0  20px  0 20px;"></div>
+   
+   
+   
+   <div class="cl"></div>
+   
+        
+   
+   
+   
+ 
+ <!------------这里面可以放一些通知--------------->
+ 
+ <div class="cl"></div
+
+>
+
+
+
+
+
+<form action="/Userset/do_add" method="post" id="" name="">
+
+<table class="table">
+<tr>
+<th colspan="4" align="left">
+<h3><i class="icon-cog"></i> 设置</h3>
+</th>
+</tr>
+<tr>
+<td width="120" height="24" valign="middle">简历设置</td>
+
+<td width="148" valign="middle"><input type="radio"  id="resume" name="resume"   value="1"  <if condition ="$dt['resume'] eq 1"> checked  </if>  />
+  公开　　
+    <input type="radio" id="resume1" name="resume" value="0"  <if condition ="$dt['resume'] eq 0"> checked  </if> />关闭</td>
+<td width="153" valign="middle">&nbsp;</td>
+<td width="92" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24">消息提醒</td>
+  <td><input type="radio" id="msg1"     <if condition ="$dt.msg1 eq 1"> checked  </if> name="msg1" value="1"     />
+    是　　　
+      <input type="radio" id="gk21" name="msg1" <if condition ="$dt.msg1 eq 0"> checked  </if> value="0"/>
+      否</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td height="24">职位推荐</td>
+  <td><input type="radio" id="tui" <if condition ="$dt.recommend eq 1"> checked  </if> name="recommend"/ value="1">
+是　　　
+  <input type="radio" id="tui1" <if condition ="$dt.recommend eq 0"> checked  </if> name="recommend"/ value="0">
+  否</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td height="60">&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td><br><button name="" id="" class="btn btn-primary">
+  保存设置</button></td>
+</tr>
+
+ </table>
+</form>
+<script>
+
+$(".readed").click(function(e) {
+              
+			 
+			  
+	      $this=$(this);
+		  // alert($this.attr('link'));
+		$.ajax({
+			  url:$this.attr('link'),
+			  type:"GET",
+			  data:{},
+			  beforeSend: function(){
+				  
+				  
+				  },
+			   success: function(data){
+				     
+					 if(data.status==1){
+						 
+						 $this.hide();
+						 
+						 }
+				   
+				   },
+			  
+			
+			})
+	   
+	  
+});
+
+</script>
+ 
+ 
+ <div class="cl"></div>
+ <div style="padding-top:20px; padding-bottom:20px;">
+   <div id="inform_box">
+     
+   </div>
+                                          
+    </div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+  </div>
+              
+              
+              
+              
+              
+              <div class="right">
+
+               {:W('rightInc')}
+              
+              <div class="cl"></div>
+              
+   
+<div class="cl"></div>
+</div>
+</div>
+
+
+</div>
+<include file="Public:inc/footer"/>
+<div id="Upass" class="modal" style="width:400px; margin-left:-200px;">
+   
+   </div>
+   
+   <script>
+     
+	 $("#upa").click(function(e) {
+		 
+		 //alert('nihao');
+         geta($("#Upass"),$(this).attr('link'),loadGif);
+		  
+    });
+   
+   </script>

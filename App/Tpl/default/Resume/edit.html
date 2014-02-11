@@ -1,0 +1,136 @@
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 id="modal-recoverLabel">编辑求职意向</h3>
+                </div>
+                <div class="modal-body">
+
+                                    
+									
+               
+             <table class="" id="edu_inputs">
+                
+                <tr>
+                <td width="96">期望行业</td>
+                <td width="463">
+                  <span style="position:relative"> <input class="span2 se-input industry" size="16" type="text" value="{$dt['trade_cn']}" autocomplete="off" name="trade_cn" id="industry_input"/><input type="hidden" name="trade" value="{$dt['trade']}" id="industry-val">
+                  
+                  
+                  
+                  <include file="Public:js-tpl/hangye.inc3"/> </span>
+                </td>
+                </tr>
+                <tr>
+                  <td height="41">期望职位</td>
+                  <td>
+                     <span style="position:relative">                   
+<input class="span2  cate_job" id="cate_job_input"  size="16" type="text" name="post" value="{$dt['post_cn']}" autocomplete="off"><input type="hidden" name="post" value="{$dt['post']}" id="cate_job-val">
+
+<include file="Public:js-tpl/cate_job1.inc"/>
+</span> 
+                  </td>
+                </tr>
+                <tr>
+                  <td height="37">期望薪资</td>
+                  <td>
+                    <input class=""  id="payment" name="payment" size="20" type="text" value="{$dt['payment']}">  <input type="hidden" value="{$dt['id']}" id="id" name="id" />               （万）年薪</td>
+                </tr>
+                <tr>
+                  <td height="224" valign="top">职业技能</td>
+                  <td><strong>
+                    <textarea name="skills" cols="28" rows="16" id="skills" style=" width:450px; margin-left:0px;">{$dt['skills']}</textarea>
+                  </strong></td>
+                </tr>
+                
+                </table>
+
+              
+              
+              
+              
+              
+                 </div>
+                
+<div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+  <input type="submit"  id="add_edu_bt" class="btn btn-primary" value="提交" />
+</div>
+                
+                
+                
+                
+                
+<script>
+				
+			    	
+			
+       // $("#time").datepicker(defaultOptions);
+      
+  
+               $('[data-form=datepicker]').datepicker();
+			  
+			  
+			  
+			  
+			  
+			  $("#add_edu_bt").click(function(e) {
+                          
+						 $this=$(this);
+						if($("#title").val() =="" ){
+							    
+								  
+								  yan_fn($(".ms"),'请填写完整',$(this));
+								  
+								  return false;
+								  
+							}  
+							
+							
+							$.ajax({
+								     url:'/Resume/do_edit',
+									 type:"POST",
+									 data:{
+										 trade_cn:$("#industry_input").val(),
+										 trade:$("#trade").val(),
+										 post_cn:$("#cate_job_input").val(),                                         post:$("#post").val(),
+										 payment:$("#payment").val(),
+										 post_type:$("#post_type").val(),
+										 skills:$("#skills").val(),
+										
+									 },
+									 beforeSend: function(){
+										    
+											$this.val("提交中...").attr('disbaled',false);
+										   
+										 },success:function(data){
+											 
+											     if(data.status==1){
+													   
+													    $this.val(data);
+														$(".close").click();
+														 window.location.reload();
+													 
+													 }else{
+														 
+														  $this.val(data);
+														 
+														 }
+												
+												
+											 }
+				                                       					 
+				 				
+								    });
+						
+						 
+                    });
+			  
+			  
+			  
+			  
+			  
+			  
+				</script>
+                
+                
+             

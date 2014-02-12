@@ -118,7 +118,9 @@
 	 
 	 
 	        function detail(){
-				     $this->Check();
+				
+				
+				     
 				
 				     parent::checkID($this->id);
 					 
@@ -167,7 +169,13 @@
 					 $this->assign('com',$company);
 					 $this->assign('ht',$hid);
 					 
-				     $this->display();
+				     if($this->uid){
+			                $this->display();
+					  }else{
+						  
+						  $this->display('detail1');
+						  
+						  }
 				
 				
 				}

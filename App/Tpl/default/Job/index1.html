@@ -121,7 +121,7 @@
 <if condition="$vo['sed'] eq 0">
 
 
-<a  href="/Login" link="/Save/add" gid="{$vo['id']}" jobname="{$vo['Search_posts']}" class="btn apply_saved" >收藏</a>
+<a  onClick="alert('请先登录');window.location='/Login'" href="/Login" link="/Save/add" gid="{$vo['id']}" jobname="{$vo['Search_posts']}" class="btn apply_saved" >收藏</a>
 
 
 

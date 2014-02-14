@@ -60,7 +60,7 @@
 //							 $condition['end_time']=array('gt',time());
                               $pageCount = M("Works")->where($condition)->count();
 							  $listRows = empty($listRows) ? 15 : $listRows;
-							  $orderd = 'id DESC';
+							  $orderd = 'up_time desc,id DESC';
 							  $paged = new page($pageCount, $listRows);
 							  
 							  
@@ -72,7 +72,7 @@
 							  
 							  $dt = M("Works")
 													  ->Where($condition)
-													  ->Field('id,uid,custom,Search_posts,area_cn,create_time,payment,payment1,cid')
+													  ->Field('id,uid,custom,Search_posts,area_cn,create_time,payment,payment1,cid,up_time')
 													  ->Order($orderd)
 													  
 													  ->Limit($paged->firstRow.','.$paged->listRows)

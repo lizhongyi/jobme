@@ -104,7 +104,14 @@
 </span>
 </td>
 <td width="13%">{$vo.area_cn}</td>
-<td width="20%">{$vo.create_time|date='Y-m-d',###}</td>
+<td width="20%"><if condition="$vo.up_time eq 0">
+
+{$vo.create_time|date='Y-m-d',###}
+
+<else/>
+{$vo.up_time|date='Y-m-d',###}
+
+</if></td>
 <td width="25%"><span class="pay">{$vo.payment}<span style="font-family:'宋体'"> -</span> {$vo.payment1}万元</span></td>
 <td width="11%">
 

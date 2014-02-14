@@ -26,7 +26,7 @@ class IndexAction extends GlAction {
 							// $condition['end_time']=array('gt',time());
 							$pageCount = M("Works")->where($condition)->count();
 							$listRows = empty($listRows) ? 15 : $listRows;
-							$orderd = empty($orders) ? 'id DESC' : $orders;
+							$orderd = empty($orders) ? ' up_time desc,id DESC' : $orders;
 							$paged = new page($pageCount, $listRows);
 							
 								$memcache = new Memcache;

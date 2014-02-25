@@ -17,7 +17,7 @@
 	         public function _initialize(){
 			        
 					parent::_initialize();
-					$this->dao=M('Works');
+					$this->dao=D('Works');
 					
 				    
 			  }
@@ -118,16 +118,15 @@
 	 
 	 
 	        function detail(){
-				
-				
-				     
-				
 				     parent::checkID($this->id);
-					 
 					 $detail=$this->dao->where('id='.$this->id)->find();
+					 $this->dao->where('id='.$this->id)->setDec('did',3);
 					 
+					
 					 parent::checkdata($detail);
 					 
+					 $data['did']=$detail['did']+1;
+					 $this->dao->where('id='.$this->id)->save($data);
 					 // get lietou user files
 					 
 					  
